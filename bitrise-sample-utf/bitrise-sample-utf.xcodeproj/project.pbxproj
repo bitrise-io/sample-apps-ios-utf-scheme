@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAF2A4A71BC7F87F00086383 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF2A4A61BC7F87F00086383 /* main.m */; };
+		BAF2A4AA1BC7F87F00086383 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF2A4A91BC7F87F00086383 /* AppDelegate.m */; };
+		BAF2A4AD1BC7F87F00086383 /* bitrise_sample_utf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAF2A4AB1BC7F87F00086383 /* bitrise_sample_utf.xcdatamodeld */; };
+		BAF2A4B01BC7F87F00086383 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF2A4AF1BC7F87F00086383 /* MasterViewController.m */; };
+		BAF2A4B31BC7F87F00086383 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF2A4B21BC7F87F00086383 /* DetailViewController.m */; };
+		BAF2A4B61BC7F87F00086383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF2A4B41BC7F87F00086383 /* Main.storyboard */; };
+		BAF2A4B81BC7F87F00086383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF2A4B71BC7F87F00086383 /* Assets.xcassets */; };
+		BAF2A4BB1BC7F87F00086383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF2A4B91BC7F87F00086383 /* LaunchScreen.storyboard */; };
+		BAF2A4C61BC7F87F00086383 /* bitrise_sample_utfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF2A4C51BC7F87F00086383 /* bitrise_sample_utfTests.m */; };
+		BAF2A4D11BC7F87F00086383 /* bitrise_sample_utfUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF2A4D01BC7F87F00086383 /* bitrise_sample_utfUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAF2A4C21BC7F87F00086383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAF2A49A1BC7F87F00086383 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF2A4A11BC7F87F00086383;
+			remoteInfo = "bitrise-sample-utf";
+		};
+		BAF2A4CD1BC7F87F00086383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAF2A49A1BC7F87F00086383 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF2A4A11BC7F87F00086383;
+			remoteInfo = "bitrise-sample-utf";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAF2A4A21BC7F87F00086383 /* bitrise-sample-utf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bitrise-sample-utf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF2A4A61BC7F87F00086383 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAF2A4A81BC7F87F00086383 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAF2A4A91BC7F87F00086383 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAF2A4AC1BC7F87F00086383 /* bitrise_sample_utf.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bitrise_sample_utf.xcdatamodel; sourceTree = "<group>"; };
+		BAF2A4AE1BC7F87F00086383 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		BAF2A4AF1BC7F87F00086383 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		BAF2A4B11BC7F87F00086383 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BAF2A4B21BC7F87F00086383 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BAF2A4B51BC7F87F00086383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAF2A4B71BC7F87F00086383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAF2A4BA1BC7F87F00086383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAF2A4BC1BC7F87F00086383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF2A4C11BC7F87F00086383 /* bitrise-sample-utfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bitrise-sample-utfTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF2A4C51BC7F87F00086383 /* bitrise_sample_utfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bitrise_sample_utfTests.m; sourceTree = "<group>"; };
+		BAF2A4C71BC7F87F00086383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF2A4CC1BC7F87F00086383 /* bitrise-sample-utfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bitrise-sample-utfUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF2A4D01BC7F87F00086383 /* bitrise_sample_utfUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bitrise_sample_utfUITests.m; sourceTree = "<group>"; };
+		BAF2A4D21BC7F87F00086383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAF2A49F1BC7F87F00086383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF2A4BE1BC7F87F00086383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF2A4C91BC7F87F00086383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAF2A4991BC7F87F00086383 = {
+			isa = PBXGroup;
+			children = (
+				BAF2A4A41BC7F87F00086383 /* bitrise-sample-utf */,
+				BAF2A4C41BC7F87F00086383 /* bitrise-sample-utfTests */,
+				BAF2A4CF1BC7F87F00086383 /* bitrise-sample-utfUITests */,
+				BAF2A4A31BC7F87F00086383 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAF2A4A31BC7F87F00086383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAF2A4A21BC7F87F00086383 /* bitrise-sample-utf.app */,
+				BAF2A4C11BC7F87F00086383 /* bitrise-sample-utfTests.xctest */,
+				BAF2A4CC1BC7F87F00086383 /* bitrise-sample-utfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAF2A4A41BC7F87F00086383 /* bitrise-sample-utf */ = {
+			isa = PBXGroup;
+			children = (
+				BAF2A4A81BC7F87F00086383 /* AppDelegate.h */,
+				BAF2A4A91BC7F87F00086383 /* AppDelegate.m */,
+				BAF2A4AE1BC7F87F00086383 /* MasterViewController.h */,
+				BAF2A4AF1BC7F87F00086383 /* MasterViewController.m */,
+				BAF2A4B11BC7F87F00086383 /* DetailViewController.h */,
+				BAF2A4B21BC7F87F00086383 /* DetailViewController.m */,
+				BAF2A4B41BC7F87F00086383 /* Main.storyboard */,
+				BAF2A4B71BC7F87F00086383 /* Assets.xcassets */,
+				BAF2A4B91BC7F87F00086383 /* LaunchScreen.storyboard */,
+				BAF2A4BC1BC7F87F00086383 /* Info.plist */,
+				BAF2A4AB1BC7F87F00086383 /* bitrise_sample_utf.xcdatamodeld */,
+				BAF2A4A51BC7F87F00086383 /* Supporting Files */,
+			);
+			path = "bitrise-sample-utf";
+			sourceTree = "<group>";
+		};
+		BAF2A4A51BC7F87F00086383 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAF2A4A61BC7F87F00086383 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAF2A4C41BC7F87F00086383 /* bitrise-sample-utfTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAF2A4C51BC7F87F00086383 /* bitrise_sample_utfTests.m */,
+				BAF2A4C71BC7F87F00086383 /* Info.plist */,
+			);
+			path = "bitrise-sample-utfTests";
+			sourceTree = "<group>";
+		};
+		BAF2A4CF1BC7F87F00086383 /* bitrise-sample-utfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAF2A4D01BC7F87F00086383 /* bitrise_sample_utfUITests.m */,
+				BAF2A4D21BC7F87F00086383 /* Info.plist */,
+			);
+			path = "bitrise-sample-utfUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAF2A4A11BC7F87F00086383 /* bitrise-sample-utf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF2A4D51BC7F87F00086383 /* Build configuration list for PBXNativeTarget "bitrise-sample-utf" */;
+			buildPhases = (
+				BAF2A49E1BC7F87F00086383 /* Sources */,
+				BAF2A49F1BC7F87F00086383 /* Frameworks */,
+				BAF2A4A01BC7F87F00086383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bitrise-sample-utf";
+			productName = "bitrise-sample-utf";
+			productReference = BAF2A4A21BC7F87F00086383 /* bitrise-sample-utf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAF2A4C01BC7F87F00086383 /* bitrise-sample-utfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF2A4D81BC7F87F00086383 /* Build configuration list for PBXNativeTarget "bitrise-sample-utfTests" */;
+			buildPhases = (
+				BAF2A4BD1BC7F87F00086383 /* Sources */,
+				BAF2A4BE1BC7F87F00086383 /* Frameworks */,
+				BAF2A4BF1BC7F87F00086383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAF2A4C31BC7F87F00086383 /* PBXTargetDependency */,
+			);
+			name = "bitrise-sample-utfTests";
+			productName = "bitrise-sample-utfTests";
+			productReference = BAF2A4C11BC7F87F00086383 /* bitrise-sample-utfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAF2A4CB1BC7F87F00086383 /* bitrise-sample-utfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF2A4DB1BC7F87F00086383 /* Build configuration list for PBXNativeTarget "bitrise-sample-utfUITests" */;
+			buildPhases = (
+				BAF2A4C81BC7F87F00086383 /* Sources */,
+				BAF2A4C91BC7F87F00086383 /* Frameworks */,
+				BAF2A4CA1BC7F87F00086383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAF2A4CE1BC7F87F00086383 /* PBXTargetDependency */,
+			);
+			name = "bitrise-sample-utfUITests";
+			productName = "bitrise-sample-utfUITests";
+			productReference = BAF2A4CC1BC7F87F00086383 /* bitrise-sample-utfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAF2A49A1BC7F87F00086383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = bitrise;
+				TargetAttributes = {
+					BAF2A4A11BC7F87F00086383 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					BAF2A4C01BC7F87F00086383 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BAF2A4A11BC7F87F00086383;
+					};
+					BAF2A4CB1BC7F87F00086383 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BAF2A4A11BC7F87F00086383;
+					};
+				};
+			};
+			buildConfigurationList = BAF2A49D1BC7F87F00086383 /* Build configuration list for PBXProject "bitrise-sample-utf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAF2A4991BC7F87F00086383;
+			productRefGroup = BAF2A4A31BC7F87F00086383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAF2A4A11BC7F87F00086383 /* bitrise-sample-utf */,
+				BAF2A4C01BC7F87F00086383 /* bitrise-sample-utfTests */,
+				BAF2A4CB1BC7F87F00086383 /* bitrise-sample-utfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAF2A4A01BC7F87F00086383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF2A4BB1BC7F87F00086383 /* LaunchScreen.storyboard in Resources */,
+				BAF2A4B81BC7F87F00086383 /* Assets.xcassets in Resources */,
+				BAF2A4B61BC7F87F00086383 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF2A4BF1BC7F87F00086383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF2A4CA1BC7F87F00086383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAF2A49E1BC7F87F00086383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF2A4B31BC7F87F00086383 /* DetailViewController.m in Sources */,
+				BAF2A4B01BC7F87F00086383 /* MasterViewController.m in Sources */,
+				BAF2A4AD1BC7F87F00086383 /* bitrise_sample_utf.xcdatamodeld in Sources */,
+				BAF2A4AA1BC7F87F00086383 /* AppDelegate.m in Sources */,
+				BAF2A4A71BC7F87F00086383 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF2A4BD1BC7F87F00086383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF2A4C61BC7F87F00086383 /* bitrise_sample_utfTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF2A4C81BC7F87F00086383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF2A4D11BC7F87F00086383 /* bitrise_sample_utfUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAF2A4C31BC7F87F00086383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAF2A4A11BC7F87F00086383 /* bitrise-sample-utf */;
+			targetProxy = BAF2A4C21BC7F87F00086383 /* PBXContainerItemProxy */;
+		};
+		BAF2A4CE1BC7F87F00086383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAF2A4A11BC7F87F00086383 /* bitrise-sample-utf */;
+			targetProxy = BAF2A4CD1BC7F87F00086383 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAF2A4B41BC7F87F00086383 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF2A4B51BC7F87F00086383 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAF2A4B91BC7F87F00086383 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF2A4BA1BC7F87F00086383 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAF2A4D31BC7F87F00086383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAF2A4D41BC7F87F00086383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAF2A4D61BC7F87F00086383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "bitrise-sample-utf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.bitrise-sample-utf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAF2A4D71BC7F87F00086383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "bitrise-sample-utf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.bitrise-sample-utf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BAF2A4D91BC7F87F00086383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "bitrise-sample-utfTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.bitrise-sample-utfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bitrise-sample-utf.app/bitrise-sample-utf";
+			};
+			name = Debug;
+		};
+		BAF2A4DA1BC7F87F00086383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "bitrise-sample-utfTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.bitrise-sample-utfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bitrise-sample-utf.app/bitrise-sample-utf";
+			};
+			name = Release;
+		};
+		BAF2A4DC1BC7F87F00086383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "bitrise-sample-utfUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.bitrise-sample-utfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "bitrise-sample-utf";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BAF2A4DD1BC7F87F00086383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "bitrise-sample-utfUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.bitrise-sample-utfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "bitrise-sample-utf";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAF2A49D1BC7F87F00086383 /* Build configuration list for PBXProject "bitrise-sample-utf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF2A4D31BC7F87F00086383 /* Debug */,
+				BAF2A4D41BC7F87F00086383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF2A4D51BC7F87F00086383 /* Build configuration list for PBXNativeTarget "bitrise-sample-utf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF2A4D61BC7F87F00086383 /* Debug */,
+				BAF2A4D71BC7F87F00086383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAF2A4D81BC7F87F00086383 /* Build configuration list for PBXNativeTarget "bitrise-sample-utfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF2A4D91BC7F87F00086383 /* Debug */,
+				BAF2A4DA1BC7F87F00086383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAF2A4DB1BC7F87F00086383 /* Build configuration list for PBXNativeTarget "bitrise-sample-utfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF2A4DC1BC7F87F00086383 /* Debug */,
+				BAF2A4DD1BC7F87F00086383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BAF2A4AB1BC7F87F00086383 /* bitrise_sample_utf.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BAF2A4AC1BC7F87F00086383 /* bitrise_sample_utf.xcdatamodel */,
+			);
+			currentVersion = BAF2A4AC1BC7F87F00086383 /* bitrise_sample_utf.xcdatamodel */;
+			path = bitrise_sample_utf.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BAF2A49A1BC7F87F00086383 /* Project object */;
+}
